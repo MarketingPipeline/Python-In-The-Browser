@@ -37,9 +37,9 @@ Examples &amp; resources on using Python in the web browser.
 [PyScript:](https://github.com/pyscript/pyscript) a project that aims to combine multiple open technologies into a framework that allows users to create sophisticated browser applications with Python.
 
 
-[RapydScript:](https://github.com/atsepkov/RapydScript) Python-inspired, decluttered JavaScript.
+[RapydScript:](https://github.com/atsepkov/RapydScript)  transpiler for a Python like language to JavaScript.
 
-[RapydScript-ng:](https://github.com/kovidgoyal/rapydscript-ng) A transpiler for a Python like language to JavaScript.
+[RapydScript-ng:](https://github.com/kovidgoyal/rapydscript-ng) A improved community fork of RapydScript.
 
 
 <br><br>
