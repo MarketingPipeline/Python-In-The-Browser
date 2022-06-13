@@ -1,0 +1,107 @@
+<style>
+#zone{
+    position: absolute;
+    background-color:#fff;
+    color: #000;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+}</style>
+<script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js">
+</script>
+<body onload=brython()>
+<body onload="brython(1)">
+
+<table width="100%">
+<tr>
+<td width="25%" style="padding-left:3%;">
+<h2>Show Input Value</h2>
+
+</td>
+<td id="right">
+</td>
+</tr>
+</table>
+
+<script type="text/python">
+from browser import document, window, html, bind
+
+def dialog(draw, remove, callback, validate=None):
+    """Generic function to handle a dialog box, similar to Javascript
+    built-in "prompt".
+    draw and remove are the functions that draw and remove the dialog box.
+    draw() returns a 3-element tuple : the <input> tag, the "Ok" and "Cancel"
+    buttons.
+    If validate is provided, it must be a callable that is applied to the
+    input value:
+    - if validate(value) doesn't raise a ValueError, the dialog box is removed
+    by calling remove(), and callback(value) is called.
+    - if it raises a ValueError, the dialog box is reset.
+    """
+    inp, btn_ok, btn_cancel = draw()
+
+    @bind(btn_ok, "click")
+    def click(ev):
+        v = inp.value
+        callback(v)
+
+    @bind(btn_cancel, "click")
+    def cancel(ev):
+        remove()
+
+    @bind(inp, "keyup")
+    def keyup(ev):
+        if ev.key == "Enter":
+            click(ev)
+
+def draw_dialog():
+    """Draw the dialog box, with an INPUT field and buttons "Ok" and "Cancel".
+    """
+    try:
+        zone = document["zone"]
+        zone.clear()
+    except KeyError:
+        zone = html.DIV(id="zone")
+        document["right"] <= zone
+    msg = html.DIV("Enter anything here")
+    inp = html.INPUT()
+    buttons = html.DIV(style={"text-align": "center"})
+    btn_ok = html.BUTTON("Ok")
+    btn_cancel = html.BUTTON("Cancel")
+    buttons <= btn_ok + btn_cancel
+    zone <= msg + inp + html.BR() + buttons
+
+    # center zone in page
+    zone.left = int((window.innerWidth - zone.offsetWidth) / 2)
+    zone.top = int(window.innerHeight / 10)
+
+    # set focus on the <input> tag
+    inp.focus()
+
+    # return the 3-element tuple expected by dialog()
+    return inp, btn_ok, btn_cancel
+
+def remove():
+    """Remove the dialog box."""
+    document["zone"].clear()
+
+def show(value):
+    """Called when user entered a valid value."""
+    document["zone"].clear()
+    document["zone"] <= f"Input value entered: {value}"
+
+def check_int(value):
+    """Try to convert value (a string) into an integer. Raises ValueError
+    if value is not an integer literal."""
+    int(value)
+
+dialog(draw_dialog,
+       remove,
+       validate=check_int,
+       callback=show)
+</script>
