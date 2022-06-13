@@ -63,7 +63,7 @@ There are many projects that have focused on using Python into the web browser. 
 
 #### Extra Resource
 
-[PyCon AU 2018: A Web without JavaScript](https://www.youtube.com/watch) A video / talk about using Python in the Web Browser by @freakboy3742 (Founder of Beeware & Previous President of the Django Software Foundation)
+[PyCon AU 2018: A Web without JavaScript](https://www.youtube.com/watch) A video / talk about using Python in the Web Browser by [@freakboy3742](https://github.com/freakboy3742) (Founder of [BeeWare](https://github.com/beeware) & was a previous president of the [Django Software Foundation](https://www.djangoproject.com/foundation/))
 
 
 
@@ -116,7 +116,7 @@ For more info on how to use Brython visit the [Brython documentation](https://br
 
 ## Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Simply-Docs)
 
-Want to help improve this document? Create a pull request with your detailed changes! If approved you will be added to the list of contributors of this awesome repo!
+Want to help improve this [repo](https://github.com/MarketingPipeline/Python-In-The-Browser/)? Create a pull request with your detailed changes! If approved you will be added to the list of contributors of this awesome [repo](https://github.com/MarketingPipeline/Python-In-The-Browser/)!
 
 See also the list of
 [contributors](https://github.com/MarketingPipeline/Simply-Docs/graphs/contributors) who
