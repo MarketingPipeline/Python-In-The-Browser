@@ -18,7 +18,7 @@ Examples &amp; resources on using Python in the web browser.
    </p>  
  </div>
 
-## Resources
+## Compilers
 
 
 
@@ -42,7 +42,7 @@ Examples &amp; resources on using Python in the web browser.
 [RapydScript-ng:](https://github.com/kovidgoyal/rapydscript-ng) A transpiler for a Python like language to JavaScript.
 
 
-<br><br><br>
+<br><br>
 
 There are many projects that have focused on using Python into the web browser. Tho some have some differences, this comparision table [Python-in-the-browser technologies](https://stromberg.dnsalias.org/~strombrg/pybrowser/python-browser.html) & the photos below will help you understand some of the differences in some of these projects.  
 <br>
@@ -61,9 +61,9 @@ There are many projects that have focused on using Python into the web browser. 
 
 <br><br>
 
-### Videos 
+#### Extra Resource
 
-[PyCon AU 2018: A Web without JavaScript](https://www.youtube.com/watch) An amazing talk about the using Python in the Web Browser by @freakboy3742 (Founder of Beeware & Previous President of the Django Software Foundation)
+[PyCon AU 2018: A Web without JavaScript](https://www.youtube.com/watch) A video / talk about using Python in the Web Browser by @freakboy3742 (Founder of Beeware & Previous President of the Django Software Foundation)
 
 
 
