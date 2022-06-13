@@ -1,2 +1,2 @@
 # Python-In-The-Browser
-Examples &amp; Resources On Using Python In The Web Browser. 
+Examples &amp; resources on using Python in the web browser. 
