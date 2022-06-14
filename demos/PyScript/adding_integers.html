@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PyScript Test</title>
+  <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+
+<body>
+  <header>
+    <h1 class="text-3xl font-bold underline">
+      PyScript Sample Page
+    </h1>
+  </header>
+  <main>
+    <div class="prose">
+      <p>
+       <u><label id='sum'></label></u>
+      </p>
+      <p>
+        If you want to get more information, please click <a href="https://github.com/pyscript/pyscript/blob/main/GETTING-STARTED.md" target="_blank" rel="noopener noreferrer">this link</a>.
+      </p>
+    
+ 
+      <py-script>
+
+
+num1 = 1.5
+num2 = 6.3
+
+# Add two numbers
+sum = num1 + num2
+
+# Display the sum
+test = ('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+
+pyscript.write('sum', test)
+
+      </py-script>
+    </div>
+  </main>
+  <footer>
+    <a href="github.com/MarketingPipeline">©️2022 github.com/MarketingPipeline</a>
+  </footer>
+</body>
+
+</html>
