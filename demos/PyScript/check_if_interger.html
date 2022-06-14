@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PyScript Test</title>
+  <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+
+<body>
+  <header>
+    <h1 class="text-3xl font-bold underline">
+      PyScript Sample Page
+    </h1>
+  </header>
+  <main>
+    <div class="prose">
+      <p>
+      <section>
+
+      <h1>Check if interger</h1>
+    </div>
+    <div>
+      <input id="InputFieldValueBox" class="border flex-1 mr-3 border-gray-300 p-2 rounded" type="text">
+      <button id="new-task-btn" class="p-2 text-white bg-blue-600 border border-blue-600 rounded" type="submit" pys-onclick="check_if_interger">
+        Check
+      </button>
+    </div>
+
+  <label id='sum'></label>
+  </div>
+
+
+  </section>
+      </p>
+      <p>
+        If you want to get more information, please click <a href="https://github.com/pyscript/pyscript/blob/main/GETTING-STARTED.md" target="_blank" rel="noopener noreferrer">this link</a>.
+      </p>
+    
+ 
+      <py-script>
+# Selecting JS element for Value / Text
+Input_Value_Box = Element("InputFieldValueBox")        
+        
+        # Needs an argument passed - don't ask me why! 
+def check_if_interger(test):
+        
+    # Getting The Value Of The Text    
+    input_text = Input_Value_Box.element.value    
+      
+   
+    if input_text.isnumeric():
+        pyscript.write('sum',input_text + " is a interger")    
+    
+    else:
+         pyscript.write('sum',input_text + " is not a interger")    
+  
+    
+
+
+
+      </py-script>
+    </div>
+  </main>
+  <footer>
+    <a href="github.com/MarketingPipeline">©️2022 github.com/MarketingPipeline</a>
+  </footer>
+</body>
+
+</html>
