@@ -50,7 +50,7 @@ Examples &amp; resources on how to use Python in the web browser.
 
 <br>
 
-There are many projects that have focused on using Python into the web browser. Tho some have some differences, this comparision table [Python-in-the-browser technologies](https://stromberg.dnsalias.org/~strombrg/pybrowser/python-browser.html) & the photos below will help you understand some of the differences in some of these projects.  
+There are many projects that have focused on using Python into the web browser. Tho  they do have some differences, this comparision table [Python-in-the-browser technologies](https://stromberg.dnsalias.org/~strombrg/pybrowser/python-browser.html) & the photos below will help you understand some of the differences in some of these projects.  
 <br>
 <details>
 <summary>Click to view the photos</summary>
