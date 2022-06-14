@@ -83,15 +83,15 @@ For more detailed info on how to use Brython visit the [Brython documentation](h
 
 - **Show Input Value**  
   [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/brython/show_input_value.html),
-  [Demo](https://github.com/getbase/base) 
+  [Demo](https://marketingpipeline.github.io/Python-In-The-Browser/demos/brython/show_input_value.html) 
   
 - **Check if Input Is Integer**  
   [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/brython/check_if_interger.html),
-  [Demo](https://github.com/getbase/base) 
+  [Demo](https://marketingpipeline.github.io/Python-In-The-Browser/demos/brython/check_if_interger.html) 
   
 - **Adding Integers**  
   [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/brython/adding_intergers.html),
-  [Demo](https://github.com/getbase/base)   
+  [Demo](https://marketingpipeline.github.io/Python-In-The-Browser/demos/brython/adding_intergers.html)   
   
 </details>
 
@@ -105,15 +105,15 @@ For more detailed info on how to use PyScript visit the [PyScript documentation]
 
 - **Show Input Value**  
   [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/PyScript/show_input_value.html),
-  [Demo](https://github.com/getbase/base) 
+  [Demo](https://marketingpipeline.github.io/Python-In-The-Browser/demos/PyScript/show_input_value.html) 
   
 - **Check if Input Is Integer**  
   [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/PyScript/check_if_interger.html),
-  [Demo](https://github.com/getbase/base) 
+  [Demo](https://marketingpipeline.github.io/Python-In-The-Browser/demos/PyScript/check_if_interger.html) 
   
 - **Adding Integers**  
   [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/PyScript/adding_integers.html),
-  [Demo](https://github.com/getbase/base)   
+  [Demo](https://marketingpipeline.github.io/Python-In-The-Browser/demos/PyScript/adding_integers.html)   
     
 
   
