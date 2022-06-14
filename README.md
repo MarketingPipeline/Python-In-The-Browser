@@ -3,7 +3,7 @@
   <img height="400" src="https://i.imgur.com/lRDqqVA.png" />
 </p>
 <div align="center">
-Examples &amp; resources on using Python in the web browser. 
+Examples &amp; resources on how to use Python in the web browser. 
   
   
    <br>
@@ -20,6 +20,10 @@ Examples &amp; resources on using Python in the web browser.
 
 ## Compilers
 
+<details>
+  <summary>Click to view the list of compilers</summary>
+  
+  <br>
 
 
 [cpython-emscripten:](https://github.com/dgym/cpython-emscripten) Python in the browser - CPython compiled with emscripten.
@@ -39,15 +43,17 @@ Examples &amp; resources on using Python in the web browser.
 
 [RapydScript:](https://github.com/atsepkov/RapydScript)  transpiler for a Python like language to JavaScript.
 
-[RapydScript-ng:](https://github.com/kovidgoyal/rapydscript-ng) A improved community fork of RapydScript.
+[RapydScript-ng:](https://github.com/kovidgoyal/rapydscript-ng) A improved community fork of RapydScript.  
+  
+</details>
 
 
-<br><br>
+<br>
 
 There are many projects that have focused on using Python into the web browser. Tho some have some differences, this comparision table [Python-in-the-browser technologies](https://stromberg.dnsalias.org/~strombrg/pybrowser/python-browser.html) & the photos below will help you understand some of the differences in some of these projects.  
 <br>
 <details>
-<summary>Click to show the photos</summary>
+<summary>Click to view the photos</summary>
 <br>
   
 
@@ -59,13 +65,13 @@ There are many projects that have focused on using Python into the web browser. 
 </details>
 
 
-<br><br>
+<br>
 
 #### Extra Resource
 
 [PyCon AU 2018: A Web without JavaScript](https://www.youtube.com/watch) A video / talk about using Python in the Web Browser by [@freakboy3742](https://github.com/freakboy3742) (Founder of [BeeWare](https://github.com/beeware) & was a previous president of the [Django Software Foundation](https://www.djangoproject.com/foundation/))
 
-
+<br>
 
 ## Examples 
 
@@ -73,18 +79,18 @@ There are many projects that have focused on using Python into the web browser. 
 <details>
   <summary>Brython Examples</summary>
   
-For more info on how to use Brython visit the [Brython documentation](https://brython.info/static_doc/en/intro.html) page  
+For more detailed info on how to use Brython visit the [Brython documentation](https://brython.info/static_doc/en/intro.html) page  
 
-- **Input Box**  
-  [Source](https://github.com/getbase/base/blob/master/readme.md#documentation),
+- **Show Input Value**  
+  [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/brython/show_input_value.html),
   [Demo](https://github.com/getbase/base) 
   
-- **Adding intergers**  
-  [Source](https://github.com/getbase/base/blob/master/readme.md#documentation),
+- **Check if Input Is Integer**  
+  [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/brython/check_if_interger.html),
   [Demo](https://github.com/getbase/base) 
   
-- **Input Box**  
-  [Source](https://github.com/getbase/base/blob/master/readme.md#documentation),
+- **Adding Integers**  
+  [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/brython/adding_intergers.html),
   [Demo](https://github.com/getbase/base)   
   
 </details>
@@ -92,8 +98,26 @@ For more info on how to use Brython visit the [Brython documentation](https://br
 
 
 <details>
-<summary>Click to show the list</summary>
-<br>
+<summary>PyScript Examples</summary>
+
+  
+For more detailed info on how to use PyScript visit the [PyScript documentation](https://github.com/pyscript/pyscript/blob/main/docs/tutorials/getting-started.md) page  
+
+- **Show Input Value**  
+  [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/PyScript/show_input_value.html),
+  [Demo](https://github.com/getbase/base) 
+  
+- **Check if Input Is Integer**  
+  [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/PyScript/check_if_interger.html),
+  [Demo](https://github.com/getbase/base) 
+  
+- **Adding Integers**  
+  [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/PyScript/adding_integers.html),
+  [Demo](https://github.com/getbase/base)   
+    
+
+  
+  
   
 </details>
 
