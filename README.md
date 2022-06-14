@@ -1,6 +1,6 @@
 # Python-In-The-Browser
 <p align="center">
-  <img height="400" src="https://i.imgur.com/lRDqqVA.png" />
+  <img height="400" src="https://i.imgur.com/9Wu04TP.png" />
 </p>
 <div align="center">
 Examples &amp; resources on how to use Python in the web browser. 
@@ -9,11 +9,11 @@ Examples &amp; resources on how to use Python in the web browser.
    <br>
   <small> <b><i>Show your support!</i> </b></small>
   <br>
-   <a href="https://github.com/MarketingPipeline/Simply-Docs">
-    <img title="Star on GitHub" src="https://img.shields.io/github/stars/MarketingPipeline/Simply-Docs.svg?style=social&label=Star">
+   <a href="https://github.com/MarketingPipeline/Python-In-The-Browser">
+    <img title="Star on GitHub" src="https://img.shields.io/github/stars/MarketingPipeline/Python-In-The-Browser.svg?style=social&label=Star">
   </a>
-  <a href="https://github.com/MarketingPipeline/Simply-Docs/fork">
-    <img title="Fork on GitHub" src="https://img.shields.io/github/forks/MarketingPipeline/Simply-Docs.svg?style=social&label=Fork">
+  <a href="https://github.com/MarketingPipeline/Python-In-The-Browser/fork">
+    <img title="Fork on GitHub" src="https://img.shields.io/github/forks/MarketingPipeline/Python-In-The-Browser.svg?style=social&label=Fork">
   </a>
    </p>  
  </div>
@@ -69,7 +69,7 @@ There are many projects that have focused on using Python into the web browser. 
 
 #### Extra Resource
 
-[PyCon AU 2018: A Web without JavaScript](https://www.youtube.com/watch) A video / talk about using Python in the Web Browser by [@freakboy3742](https://github.com/freakboy3742) (Founder of [BeeWare](https://github.com/beeware) & was a previous president of the [Django Software Foundation](https://www.djangoproject.com/foundation/))
+[PyCon AU 2018: A Web without JavaScript](https://www.youtube.com/watch?v=2XSeNQyPlTY) A video / talk about using Python in the Web Browser by [@freakboy3742](https://github.com/freakboy3742) (Founder of [BeeWare](https://github.com/beeware) & was a previous president of the [Django Software Foundation](https://www.djangoproject.com/foundation/))
 
 <br>
 
@@ -123,35 +123,17 @@ For more detailed info on how to use PyScript visit the [PyScript documentation]
 
 
 
-<details>
-<summary>Click to show the list</summary>
-<br>
-  
-</details>
-
-
-
-<details>
-<summary>Click to show the list</summary>
-<br>
-  
-</details>
-
-
-## Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Simply-Docs)
+## Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Python-In-The-Browser)
 
 Want to help improve this [repo](https://github.com/MarketingPipeline/Python-In-The-Browser/)? Create a pull request with your detailed changes! If approved you will be added to the list of contributors of this awesome [repo](https://github.com/MarketingPipeline/Python-In-The-Browser/)!
 
 See also the list of
-[contributors](https://github.com/MarketingPipeline/Simply-Docs/graphs/contributors) who
+[contributors](https://github.com/MarketingPipeline/Python-In-The-Browser/graphs/contributors) who
 participate in this project.
 
-## License <a href="https://github.com/MarketingPipeline/Awesome-CSS-Resources/blob/main/LICENSE"> <img alt="License: CC BY-NC 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-orange.svg"></img></a>
+## License <a href="https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/LICENSE"> <img alt="License: CC BY-NC 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-orange.svg"></img></a>
 
 
 This repo is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License - see the
-[LICENSE.md](https://github.com/MarketingPipeline/Awesome-CSS-Resources/blob/main/LICENSE) file for
+[LICENSE.md](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/LICENSE) file for
 details.
-
-
-
