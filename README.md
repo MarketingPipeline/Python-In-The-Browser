@@ -1,11 +1,11 @@
 # Python-In-The-Browser
 <p align="center">
-  <img height="400" src="https://i.imgur.com/9Wu04TP.png" />
+  <img height="400" src="https://user-images.githubusercontent.com/86180097/177475981-12c01852-61b4-480d-b6d4-5e1707cfb7ae.png" />
 </p>
 <div align="center">
 Examples &amp; resources on how to use Python in the web browser. 
   
-  
+
    <br>
   <small> <b><i>Show your support!</i> </b></small>
   <br>
